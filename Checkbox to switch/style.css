@@ -8,7 +8,7 @@ label {
     grid-template-columns: 1fr auto;
 }
 
-@supports ( (-webkit-appearance: none;) or (-moz-appearance: none;)) {
+@supports ( (-webkit-appearance: none) or (-moz-appearance: none)) {
     .switch{
         -webkit-appearance: none;
         -moz-appearance: none;
